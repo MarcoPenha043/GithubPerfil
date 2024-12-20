@@ -30,7 +30,7 @@ const ReposList = ({ nomeUsuario }) => {
         <div className={styles.container}>
             {estaCarregando ? (
                 <h1>Carregando...</h1>
-            ) : repos.length > 0 ? (
+            ) : repos.length > 0 ?  (
                 <ul className={styles.list}>
                     {repos.map(repositorio => (
                         <li className={styles.listItem} key={repositorio.id}>
