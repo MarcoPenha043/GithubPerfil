@@ -1,0 +1,31 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem{
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5%;
+}
+
+.listItemName b, .listItemLanguage b {
+    margin-right: 8px;
+}
+
+.listItemLink{
+    display: block;
+    background-color:var(--corTerciaria);
+    color: var(--corSecundaria);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.listItemLink:hover{
+    background-color: #c73030;
+}
